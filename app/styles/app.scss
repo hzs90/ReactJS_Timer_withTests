@@ -1,0 +1,12 @@
+@import "base/variables";
+
+// Foundation
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
+
+// Components
+@import "components/navigation"; // _ and file extension can be left out
+@import "components/clock"; // _ and file extension can be left out
+@import "components/controls"; // _ and file extension can be left out
+@import "components/page-title"; // _ and file extension can be left out
